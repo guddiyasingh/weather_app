@@ -2,8 +2,8 @@ import React from 'react'
 import './Weather.css'
 import search_icon from '../assets/search.png';
 import cloudy_icon from '../assets/cloudy.png'
-import humidity_icon from '../assets/weather.png';
-import wind_icon from '../assets/Wind.png'
+import humidity_icon from '../assets/humidity(1).png';
+import wind_icon from '../assets/wind.png'
 const Weather = () => {
   return (
     <div className='weather'>
