@@ -2,7 +2,8 @@ import React from 'react'
 import './Weather.css'
 import search_icon from '../assets/search.png';
 import cloudy_icon from '../assets/cloudy.png'
-
+import humidity_icon from '../assets/weather.png';
+import wind_icon from '../assets/Wind.png'
 const Weather = () => {
   return (
     <div className='weather'>
@@ -16,6 +17,17 @@ const Weather = () => {
         <div className='weather-data'>
           <div className='col'>
             <img src={humidity_icon} alt="" />
+            <div>
+              <p>91%</p>
+              <span>Humidity</span>
+            </div>
+            </div>
+          <div className='col'>
+            <img src={wind_icon} alt="" />
+            <div>
+              <p>3.6km/h</p>
+              <span>Wind speed</span>
+            </div>
           </div>
         </div>
      
