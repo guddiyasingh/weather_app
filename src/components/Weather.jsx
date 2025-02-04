@@ -9,8 +9,9 @@ const Weather = () => {
       <div className='search-bar'>
         <input type="text"  placeholder='search'/>
         <img src={search_icon} alt="" />
-        <img src={cloudy_icon} alt="" />
       </div>
+        <img src={cloudy_icon} alt="" className='weather-icon'/>
+        <p className='temperature'>16c</p>
      
     </div>
   )
