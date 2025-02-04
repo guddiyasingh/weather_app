@@ -12,6 +12,12 @@ const Weather = () => {
       </div>
         <img src={cloudy_icon} alt="" className='weather-icon'/>
         <p className='temperature'>16c</p>
+        <p className='location'>Londan</p>
+        <div className='weather-data'>
+          <div className='col'>
+            <img src={humidity_icon} alt="" />
+          </div>
+        </div>
      
     </div>
   )
